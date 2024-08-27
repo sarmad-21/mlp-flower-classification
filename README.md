@@ -23,3 +23,11 @@ The model uses a Multi-Layer Perceptron (MLP) architecture to classify flower im
   - Batch size: Not explicitly defined (handled internally by `MLPClassifier`)
 - **Performance**:
   - Achieved a validation accuracy of approximately 70%.
+
+## Data 
+- The dataset consists of images of flowers and their corresponding labels.
+- Labels are provided in the `flower_labels.csv` file.
+- Images are resized to 32x32 pixels for processing.
+
+## Future Enhancements 
+- Later used a Convolutional Neural Network (CNN) to achieve higher accuracy in flower classification which is included in my cnn-flower-classification repository. 
