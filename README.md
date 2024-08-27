@@ -25,6 +25,7 @@ The model uses a Multi-Layer Perceptron (MLP) architecture to classify flower im
   - Achieved a validation accuracy of approximately 70%.
 
 ## Data 
+- Link to data: https://web.njit.edu/~usman/courses/cs677_spring21/flowers-recognition.zip
 - The dataset consists of images of flowers and their corresponding labels.
 - Labels are provided in the `flower_labels.csv` file.
 - Images are resized to 32x32 pixels for processing.
