@@ -13,7 +13,7 @@ This project aims to classify flower images into two categories based on their l
 The model uses a Multi-Layer Perceptron (MLP) architecture to classify flower images.
 - **Model Architecture**:
   - One hidden layer with 100 neurons
-  - ReLU activation function
+  - ReLU activation function which introduces non-linearity into the hidden layer.
   - Output layer with sigmoid activation for binary classification
 - **Compilation**:
   - Optimizer: Adam
