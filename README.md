@@ -22,7 +22,7 @@ The model uses a Multi-Layer Perceptron (MLP) architecture to classify flower im
   - Number of epochs: 1000
   - Batch size: Not explicitly defined (handled internally by `MLPClassifier`)
 - **Performance**:
-  - Achieved a validation accuracy of approximately 70%.
+  - Achieved a five-fold validation accuracy of approximately 70%.
 
 ## Data 
 - Link to data: https://web.njit.edu/~usman/courses/cs677_spring21/flowers-recognition.zip
