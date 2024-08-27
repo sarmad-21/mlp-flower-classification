@@ -17,7 +17,7 @@ The model uses a Multi-Layer Perceptron (MLP) architecture to classify flower im
   - Output layer with sigmoid activation for binary classification
 - **Compilation**:
   - Optimizer: Adam
-  - Loss Function: Binary cross-entropy
+  - Loss Function: Binary cross-entropy which introduces non-linearity into the hidden layer of the network. 
 - **Training**:
   - Number of epochs: 1000
   - Batch size: Not explicitly defined (handled internally by `MLPClassifier`)
